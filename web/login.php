@@ -19,11 +19,11 @@ include_once '../lib/helpers.php';
         <h1>Iniciar sesión</h1>
         <form action="" method="post">
             <div class="form-control">
-                <input type="email" name="" id="" required>
+                <input type="text" required>
                 <label for="">Correo electronico</label>
             </div>
             <div class="form-control">
-                <input type="password" name="" id="" required>
+                <input type="password" required>
                 <label for="">Contraseña</label>
             </div>
             <button class="btn" type="submit">Enviar</button>
