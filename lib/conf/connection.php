@@ -26,7 +26,7 @@
             if (!$this->link) {
                 die(mysqli_error($this->link));
             }else{
-                echo "¡CONEXION EXITOSA!";
+               // echo "¡CONEXION EXITOSA!";
             }
         }
         public function getConnect(){

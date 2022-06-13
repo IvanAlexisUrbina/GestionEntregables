@@ -17,7 +17,7 @@ include_once '../lib/helpers.php';
 <body>
     <div class="container">
         <h1>Iniciar sesión</h1>
-        <form action="" method="post">
+        <form action='<?php echo getUrl("login","login","helou")?>' method="post">
             <div class="form-control">
                 <input type="text" required>
                 <label for="">Correo electronico</label>

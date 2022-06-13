@@ -15,7 +15,7 @@
 
     function getUrl($modulo,$controlador,$funcion,$parametro=false,$pagina=false){
         if ($pagina==false) {
-            $pagina="indexAdmin";
+            $pagina="index";
         }
 
         $url="$pagina.php?modulo=$modulo&controlador=$controlador&funcion=$funcion";
@@ -31,7 +31,7 @@
 
     function getUrl2($modulo,$controlador,$funcion,$parametro=false,$pagina=false){
         if ($pagina==false) {
-            $pagina="indexUsu";
+            $pagina="index";
         }
 
         $url="$pagina.php?modulo=$modulo&controlador=$controlador&funcion=$funcion";
