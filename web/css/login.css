@@ -35,6 +35,9 @@ body {
   text-decoration: none;
   color: darkblue;
 }
+.container a:hover {
+  color: rgb(0, 0, 0);
+}
 
 .btn {
   cursor: pointer;
@@ -51,6 +54,9 @@ body {
 
 .btn:focus {
   outline: 0;
+}
+.btn:hover {
+  background-color: black;
 }
 
 .btn:active {
